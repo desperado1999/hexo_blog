@@ -99,5 +99,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@$101.132.193.4:/home/git/hexo_blog.git
+  repo: admin@101.132.193.4:/home/admin/hexo_blog.git
   branch: master
