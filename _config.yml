@@ -93,11 +93,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: admin@101.132.193.4:/home/admin/hexo_blog.git
-  branch: master
+  repo: 
+        ali_server: admin@101.132.193.4:/home/admin/hexo_blog.git,master
+        github: git@github.com:desperado1999/desperado1999.github.io.git,master
