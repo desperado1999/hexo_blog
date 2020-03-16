@@ -1,7 +1,8 @@
 ---
 title: 使用Hexo搭建自己的博客
 date: 2020-03-16 00:32:46
-tags: 技术
+categories: 技术
+tags: Hexo
 ---
 一直想搭建一个自己的博客，把一些自己所学的，所思考的东西记在里面，为了不丢，也为了让自己有写作记录的习惯，同时也可以和朋友们讨论一下。
 
@@ -12,7 +13,8 @@ tags: 技术
 
 # 搭建思路
 为了不让初学者迷糊，这里引用一张图便于理解
-![hexo搭建博客框架](hexo-process.png)
+![Hexo搭建博客框架](/images/hexo_blog/hexo_process.jpg)
+
 1. hexo程序在本地计算机中，自己写好文章之后通过hexo程序生成静态的网页。
 2. 通过hexo deploy服务将生成的静态网页push到远程仓库中 
 3. 远程的服务器上运行着一个git的仓库，通过git hooks将git仓库中的文件checkout到网站的根目录中。
@@ -128,6 +130,8 @@ hexo g -d
 
 # Hexo + github pages
 > 本地hexo环境配置和hexo文件配置如上
+
+
 1. 在自己github中创建一个库，注意库的名字为github用户名.github.io，如desperado1999.github.io
 2. 注意需要初始化README文件
 3. 将github仓库输入到hexo的_config.yml文件中，再使用```hexo g -d```自动部署即可。如在_config.yml的deploy中写如下配置

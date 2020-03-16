@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -102,3 +102,10 @@ deploy:
   repo: 
         ali_server: admin@101.132.193.4:/home/admin/hexo_blog.git,master
         github: git@github.com:desperado1999/desperado1999.github.io.git,master
+
+
+# hexo-generator-searchdb
+search:
+    path: search.xml
+    field: post
+    format: html
