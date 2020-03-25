@@ -13,6 +13,7 @@ tags: Hexo
 
 # 搭建思路
 为了不让初学者迷糊，这里引用一张图便于理解
+
 ![Hexo搭建博客框架](/images/hexo_blog/hexo_process.jpg)
 
 1. hexo程序在本地计算机中，自己写好文章之后通过hexo程序生成静态的网页。
